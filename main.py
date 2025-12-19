@@ -28,32 +28,42 @@ SPACING_TIME = 4
 def turn_90_right():
     turn_right(TURN_90)
     stop_robot()
+    keep_safe()
 def turn_90_left():
     turn_left(TURN_90)
     stop_robot()
+    keep_safe()
 
 def draw_M():
     turn_90_left()
     move_forward(STROKE_TIME)
     stop_robot()
+    keep_safe()
     move_backward(STROKE_TIME)
     stop_robot()
+    keep_safe()
     turn_90_right()
     move_forward(SPACING_TIME)
     stop_robot()
+    keep_safe()
     turn_90_left()
     move_forward(STROKE_TIME)
     stop_robot()
+    keep_safe()
     move_backward(STROKE_TIME)
     stop_robot()
+    keep_safe()
     turn_90_right()
     move_forward(SPACING_TIME)
     stop_robot()
+    keep_safe()
     turn_90_left()
     move_forward(STROKE_TIME)
     stop_robot()
+    keep_safe()
     move_backward(STROKE_TIME)
     stop_robot()
+    keep_safe()
     
             
 
@@ -64,6 +74,7 @@ def draw_spin():
     stop_robot()
 
 def main():
+    
     
     loops_choice = input("Choose number of loops (1, 2): ").strip().lower()
     if loops_choice == "1":

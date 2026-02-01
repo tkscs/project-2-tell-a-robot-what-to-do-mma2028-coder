@@ -1,12 +1,12 @@
 See github for more comments:
 https://github.com/tkscs/project-2-tell-a-robot-what-to-do-mma2028-coder/pull/1
 
-Overall Rough Draft Score: 50 / 50
+Overall Rough Draft Score: 74 / 80
  
 Basic Functionality (15 points):
 
 * [ 10 / 10 ] Robot can move, and code runs without errors in simulator
-* [ 0 / 5 ] Robot does not crash into walls
+* [ 3 / 5 ] Robot does not crash into walls
 
 Control Flow - If/Elif/Else (15 points):
 
@@ -16,9 +16,9 @@ Control Flow - If/Elif/Else (15 points):
 
 User Input (15 points):
 
-* [ 2 / 3 ] At least 3 different input() prompts
-* [ 4 / 6 ] At least 6 different user responses are handled (2 per prompt above)
-* [ 4 / 6 ] Robot behavior changes based on user input at least 6 times (each response above corresponds to a different behavior)
+* [ 3 / 3 ] At least 3 different input() prompts
+* [ 6 / 6 ] At least 6 different user responses are handled (2 per prompt above)
+* [ 6 / 6 ] Robot behavior changes based on user input at least 6 times (each response above corresponds to a different behavior)
 
 Functions (10 points):
 
@@ -34,7 +34,6 @@ Sensors (10 points):
 
 Loops/Recursion (15 points):
 
-* [ 5 / 10 ] Implements indefinite execution using at least one while loop OR at least one recursive function call
-    * My instructions were unclear here. My vision was that you would have an infinite loop for the user having a dialogue with the robot and telling it what to do.
-* [ 0 / 5 ] There is an option to terminate your indefinite execution
+* [ 10 / 10 ] Implements indefinite execution using at least one while loop OR at least one recursive function call
+* [ 4 / 5 ] There is an option to terminate your indefinite execution
 
